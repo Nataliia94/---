@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" fill="none">
+  <defs>
+    <linearGradient id="bgBA" x1="0" y1="0" x2="480" y2="320">
+      <stop offset="0%" stop-color="#1a1a1a"/>
+      <stop offset="100%" stop-color="#2a2a2a"/>
+    </linearGradient>
+    <linearGradient id="armBA" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1a1a1a"/>
+      <stop offset="25%" stop-color="#3a3a3a"/>
+      <stop offset="50%" stop-color="#555"/>
+      <stop offset="75%" stop-color="#3a3a3a"/>
+      <stop offset="100%" stop-color="#1a1a1a"/>
+    </linearGradient>
+    <linearGradient id="jointBA" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#777"/>
+      <stop offset="30%" stop-color="#ccc"/>
+      <stop offset="50%" stop-color="#eee"/>
+      <stop offset="70%" stop-color="#bbb"/>
+      <stop offset="100%" stop-color="#666"/>
+    </linearGradient>
+    <linearGradient id="clampBA" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#333"/>
+      <stop offset="50%" stop-color="#2a2a2a"/>
+      <stop offset="100%" stop-color="#1a1a1a"/>
+    </linearGradient>
+    <linearGradient id="suctionBA" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#666"/>
+      <stop offset="50%" stop-color="#999"/>
+      <stop offset="100%" stop-color="#555"/>
+    </linearGradient>
+    <pattern id="carbonBA" x="0" y="0" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="4" fill="#2a2a2a"/>
+      <rect x="0" y="0" width="2" height="2" fill="#333" opacity="0.5"/>
+      <rect x="2" y="2" width="2" height="2" fill="#333" opacity="0.5"/>
+    </pattern>
+  </defs>
+  <rect width="480" height="320" fill="url(#bgBA)"/>
+  <line x1="240" y1="0" x2="240" y2="320" stroke="#555" stroke-width="1" stroke-dasharray="4,4"/>
+  <rect x="40" y="10" width="140" height="28" rx="14" fill="#ef4444" opacity="0.9"/>
+  <text x="110" y="29" font-family="Arial, sans-serif" font-weight="bold" font-size="13" fill="#fff" text-anchor="middle">БЕЗ держателя</text>
+  <g transform="translate(120, 80)">
+    <rect x="-90" y="160" width="180" height="60" rx="4" fill="#333" stroke="#444" stroke-width="0.5"/>
+    <g transform="rotate(25, 0, 80)">
+      <rect x="-28" y="30" width="56" height="100" rx="8" fill="#1a1a2e" stroke="#3a3a5a" stroke-width="1.5"/>
+      <rect x="-23" y="38" width="46" height="84" rx="4" fill="#222"/>
+      <line x1="-15" y1="50" x2="10" y2="90" stroke="#ef4444" stroke-width="0.8" opacity="0.6"/>
+      <line x1="5" y1="45" x2="-10" y2="100" stroke="#ef4444" stroke-width="0.6" opacity="0.5"/>
+      <line x1="-20" y1="70" x2="15" y2="60" stroke="#ef4444" stroke-width="0.5" opacity="0.4"/>
+    </g>
+    <line x1="35" y1="60" x2="50" y2="50" stroke="#ef4444" stroke-width="1.5" opacity="0.5"/>
+    <line x1="38" y1="75" x2="55" y2="68" stroke="#ef4444" stroke-width="1.5" opacity="0.4"/>
+    <line x1="33" y1="90" x2="48" y2="85" stroke="#ef4444" stroke-width="1.5" opacity="0.3"/>
+    <polygon points="0,140 -12,162 12,162" fill="none" stroke="#ef4444" stroke-width="2"/>
+    <text x="0" y="158" font-family="Arial" font-weight="bold" font-size="14" fill="#ef4444" text-anchor="middle">!</text>
+    <circle cx="0" cy="210" r="16" fill="#ef4444" opacity="0.15"/>
+    <line x1="-8" y1="202" x2="8" y2="218" stroke="#ef4444" stroke-width="2.5"/>
+    <line x1="8" y1="202" x2="-8" y2="218" stroke="#ef4444" stroke-width="2.5"/>
+  </g>
+  <rect x="290" y="10" width="140" height="28" rx="14" fill="#16a34a" opacity="0.9"/>
+  <text x="360" y="29" font-family="Arial, sans-serif" font-weight="bold" font-size="13" fill="#fff" text-anchor="middle">С ДЕРЖАТЕЛЕМ</text>
+  <g transform="translate(360, 70)">
+    <rect x="-90" y="170" width="180" height="60" rx="4" fill="#333" stroke="#444" stroke-width="0.5"/>
+    <ellipse cx="0" cy="175" rx="30" ry="8" fill="url(#suctionBA)" stroke="#777" stroke-width="0.5"/>
+    <rect x="-5" y="120" width="10" height="56" rx="2" fill="url(#armBA)"/>
+    <circle cx="0" cy="118" r="8" fill="url(#jointBA)" stroke="#999" stroke-width="0.5"/>
+    <circle cx="0" cy="118" r="4" fill="#bbb"/>
+    <rect x="-4" y="65" width="8" height="56" rx="2" fill="url(#armBA)"/>
+    <circle cx="0" cy="63" r="7" fill="url(#jointBA)" stroke="#999" stroke-width="0.5"/>
+    <circle cx="0" cy="63" r="3.5" fill="#bbb"/>
+    <rect x="-28" y="28" width="56" height="32" rx="3" fill="url(#clampBA)" stroke="#444" stroke-width="0.5"/>
+    <rect x="-26" y="30" width="52" height="28" rx="2" fill="url(#carbonBA)" opacity="0.3"/>
+    <rect x="-34" y="33" width="8" height="22" rx="2" fill="#2a2a2a" stroke="#444" stroke-width="0.5"/>
+    <rect x="26" y="33" width="8" height="22" rx="2" fill="#2a2a2a" stroke="#444" stroke-width="0.5"/>
+    <rect x="-25" y="-50" width="50" height="82" rx="6" fill="#1a1a2e" stroke="#3a3a5a" stroke-width="1"/>
+    <rect x="-21" y="-44" width="42" height="70" rx="3" fill="#4fc3f7" opacity="0.8"/>
+    <path d="M-10 -10 L0 -20 L8 -12 L15 -25" stroke="white" stroke-width="1.5" fill="none" opacity="0.5"/>
+    <circle cx="0" cy="-5" r="4" fill="white" opacity="0.3"/>
+    <polygon points="0,-12 2,-7 0,-8 -2,-7" fill="white" opacity="0.6"/>
+    <text x="-16" y="-34" font-family="Arial" font-size="7" fill="white" opacity="0.7">9:41</text>
+    <circle cx="0" cy="215" r="16" fill="#16a34a" opacity="0.15"/>
+    <polyline points="-8,215 -2,221 8,209" stroke="#16a34a" stroke-width="2.5" fill="none"/>
+    <path d="M-10,145 L0,138 L10,145 L10,160 Q0,168 -10,160 Z" fill="none" stroke="#16a34a" stroke-width="1.5"/>
+    <polyline points="-4,152 -1,156 5,148" stroke="#16a34a" stroke-width="1.5" fill="none"/>
+  </g>
+</svg>

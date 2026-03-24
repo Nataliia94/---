@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" fill="none">
+  <defs>
+    <linearGradient id="bg5" x1="0" y1="0" x2="480" y2="300">
+      <stop offset="0%" stop-color="#1a1a1a"/>
+      <stop offset="100%" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <linearGradient id="suct5" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#666"/>
+      <stop offset="15%" stop-color="#999"/>
+      <stop offset="35%" stop-color="#bbb"/>
+      <stop offset="50%" stop-color="#aaa"/>
+      <stop offset="70%" stop-color="#888"/>
+      <stop offset="100%" stop-color="#555"/>
+    </linearGradient>
+    <linearGradient id="arm5" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1a1a1a"/>
+      <stop offset="25%" stop-color="#3a3a3a"/>
+      <stop offset="50%" stop-color="#555"/>
+      <stop offset="75%" stop-color="#3a3a3a"/>
+      <stop offset="100%" stop-color="#1a1a1a"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3a4a6a" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#2a3a5a" stop-opacity="0.08"/>
+    </linearGradient>
+    <filter id="shadow5">
+      <feDropShadow dx="0" dy="3" stdDeviation="6" flood-color="#000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+  <rect width="480" height="300" fill="url(#bg5)"/>
+  <rect x="0" y="130" width="480" height="170" fill="url(#glass)" rx="0"/>
+  <line x1="0" y1="130" x2="480" y2="130" stroke="#4a5a7a" stroke-width="0.5" opacity="0.3"/>
+  <g transform="translate(240, 50)" filter="url(#shadow5)">
+    <rect x="-12" y="-40" width="24" height="80" rx="4" fill="url(#arm5)"/>
+    <ellipse cx="0" cy="60" rx="80" ry="20" fill="#222" opacity="0.3"/>
+    <ellipse cx="0" cy="50" rx="75" ry="18" fill="url(#suct5)" stroke="#999" stroke-width="1"/>
+    <ellipse cx="0" cy="48" rx="70" ry="16" fill="none" stroke="#aaa" stroke-width="0.5"/>
+    <ellipse cx="0" cy="46" rx="65" ry="15" fill="#666" stroke="#777" stroke-width="0.5"/>
+    <ellipse cx="0" cy="44" rx="60" ry="13" fill="none" stroke="#888" stroke-width="1.5"/>
+    <ellipse cx="0" cy="42" rx="55" ry="12" fill="#444"/>
+    <rect x="40" y="30" width="40" height="8" rx="3" fill="#333" stroke="#555" stroke-width="0.5" transform="rotate(-15, 60, 34)"/>
+    <circle cx="42" cy="33" r="5" fill="#444" stroke="#555" stroke-width="0.5"/>
+    <path d="M-52 40 Q-55 90 0 100 Q55 90 52 40" fill="#222" stroke="#333" stroke-width="0.5"/>
+    <g transform="translate(0, 120)">
+      <rect x="-60" y="0" width="120" height="3" rx="1.5" fill="#333"/>
+      <rect x="-60" y="0" width="96" height="3" rx="1.5" fill="#16a34a" opacity="0.8"/>
+    </g>
+    <text x="0" y="140" font-family="Arial, sans-serif" font-size="10" fill="#16a34a" text-anchor="middle" opacity="0.8">Сила фиксации: 80%</text>
+  </g>
+  <text x="240" y="240" font-family="Arial, sans-serif" font-weight="bold" font-size="16" fill="#fff" text-anchor="middle">Вакуумная присоска нового поколения</text>
+  <text x="240" y="260" font-family="Arial, sans-serif" font-size="12" fill="#999" text-anchor="middle">Выдерживает до 15 кг нагрузки</text>
+</svg>

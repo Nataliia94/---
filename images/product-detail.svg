@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 400" fill="none">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="480" y2="400">
+      <stop offset="0%" stop-color="#1a1a1a"/>
+      <stop offset="100%" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <linearGradient id="arm2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1a1a1a"/>
+      <stop offset="25%" stop-color="#3a3a3a"/>
+      <stop offset="50%" stop-color="#555"/>
+      <stop offset="75%" stop-color="#3a3a3a"/>
+      <stop offset="100%" stop-color="#1a1a1a"/>
+    </linearGradient>
+    <linearGradient id="joint2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#777"/>
+      <stop offset="30%" stop-color="#ccc"/>
+      <stop offset="50%" stop-color="#eee"/>
+      <stop offset="70%" stop-color="#bbb"/>
+      <stop offset="100%" stop-color="#666"/>
+    </linearGradient>
+    <linearGradient id="clamp2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#333"/>
+      <stop offset="20%" stop-color="#444"/>
+      <stop offset="80%" stop-color="#2a2a2a"/>
+      <stop offset="100%" stop-color="#1a1a1a"/>
+    </linearGradient>
+    <linearGradient id="suction2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#666"/>
+      <stop offset="30%" stop-color="#999"/>
+      <stop offset="50%" stop-color="#aaa"/>
+      <stop offset="70%" stop-color="#888"/>
+      <stop offset="100%" stop-color="#555"/>
+    </linearGradient>
+    <linearGradient id="phoneBody" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#2d2d44"/>
+    </linearGradient>
+    <linearGradient id="phoneScreen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4fc3f7"/>
+      <stop offset="50%" stop-color="#29b6f6"/>
+      <stop offset="100%" stop-color="#0288d1"/>
+    </linearGradient>
+    <pattern id="carbon2" x="0" y="0" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="4" fill="#2a2a2a"/>
+      <rect x="0" y="0" width="2" height="2" fill="#333" opacity="0.5"/>
+      <rect x="2" y="2" width="2" height="2" fill="#333" opacity="0.5"/>
+    </pattern>
+    <filter id="shadow2">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+  <rect width="480" height="400" fill="url(#bg2)"/>
+  <g transform="translate(240, 40)" filter="url(#shadow2)">
+    <ellipse cx="0" cy="355" rx="65" ry="16" fill="#222" opacity="0.4"/>
+    <ellipse cx="0" cy="345" rx="60" ry="15" fill="url(#suction2)" stroke="#888" stroke-width="0.5"/>
+    <ellipse cx="0" cy="341" rx="55" ry="13" fill="#555"/>
+    <ellipse cx="0" cy="341" rx="48" ry="11" fill="none" stroke="#777" stroke-width="1.5"/>
+    <ellipse cx="0" cy="339" rx="42" ry="9" fill="#333"/>
+    <path d="M-40 337 Q-40 375 0 380 Q40 375 40 337" fill="#222"/>
+    <rect x="-10" y="250" width="20" height="92" rx="4" fill="url(#arm2)"/>
+    <rect x="-13" y="285" width="26" height="14" rx="3" fill="#333" stroke="#555" stroke-width="0.5"/>
+    <circle cx="0" cy="248" r="17" fill="url(#joint2)" stroke="#999" stroke-width="1"/>
+    <circle cx="0" cy="248" r="10" fill="#aaa"/>
+    <circle cx="-3" cy="245" r="4" fill="#ddd" opacity="0.6"/>
+    <rect x="-9" y="155" width="18" height="96" rx="3" fill="url(#arm2)"/>
+    <circle cx="0" cy="153" r="15" fill="url(#joint2)" stroke="#999" stroke-width="1"/>
+    <circle cx="0" cy="153" r="8" fill="#bbb"/>
+    <rect x="-55" y="68" width="110" height="78" rx="6" fill="url(#clamp2)" stroke="#444" stroke-width="1"/>
+    <rect x="-52" y="71" width="104" height="72" rx="4" fill="url(#carbon2)" opacity="0.3"/>
+    <rect x="-8" y="78" width="16" height="52" rx="3" fill="#3a3a3a" stroke="#555" stroke-width="0.5"/>
+    <rect x="-67" y="78" width="15" height="52" rx="4" fill="#2a2a2a" stroke="#444" stroke-width="0.8"/>
+    <rect x="-65" y="86" width="11" height="8" rx="2" fill="#333"/>
+    <rect x="-65" y="98" width="11" height="8" rx="2" fill="#333"/>
+    <rect x="-65" y="110" width="11" height="8" rx="2" fill="#333"/>
+    <rect x="52" y="78" width="15" height="52" rx="4" fill="#2a2a2a" stroke="#444" stroke-width="0.8"/>
+    <rect x="54" y="86" width="11" height="8" rx="2" fill="#333"/>
+    <rect x="54" y="98" width="11" height="8" rx="2" fill="#333"/>
+    <rect x="54" y="110" width="11" height="8" rx="2" fill="#333"/>
+    <rect x="-38" y="140" width="22" height="8" rx="2" fill="#333" transform="rotate(-12, -27, 144)"/>
+    <rect x="16" y="140" width="22" height="8" rx="2" fill="#333" transform="rotate(12, 27, 144)"/>
+    <rect x="-48" y="-55" width="96" height="130" rx="10" fill="url(#phoneBody)" stroke="#3a3a5a" stroke-width="1.5"/>
+    <rect x="-42" y="-45" width="84" height="110" rx="6" fill="url(#phoneScreen)"/>
+    <path d="M-20 10 L0 -10 L15 5 L30 -15" stroke="white" stroke-width="2" fill="none" opacity="0.5"/>
+    <circle cx="0" cy="15" r="6" fill="white" opacity="0.25"/>
+    <circle cx="0" cy="15" r="2.5" fill="white" opacity="0.5"/>
+    <polygon points="0,5 4,12 0,10 -4,12" fill="white" opacity="0.7"/>
+    <text x="-35" y="-32" font-family="Arial" font-size="9" fill="white" opacity="0.7">9:41</text>
+    <rect x="-25" y="40" width="50" height="6" rx="3" fill="white" opacity="0.2"/>
+    <rect x="-18" y="50" width="36" height="5" rx="2.5" fill="white" opacity="0.15"/>
+    <circle cx="0" cy="-50" r="2.5" fill="#2a2a44" stroke="#3a3a5a" stroke-width="0.8"/>
+  </g>
+</svg>

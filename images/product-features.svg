@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 500" fill="none">
+  <defs>
+    <linearGradient id="bg4" x1="0" y1="0" x2="480" y2="500">
+      <stop offset="0%" stop-color="#1e1e1e"/>
+      <stop offset="100%" stop-color="#2a2a2a"/>
+    </linearGradient>
+    <linearGradient id="arm4" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1a1a1a"/>
+      <stop offset="25%" stop-color="#3a3a3a"/>
+      <stop offset="50%" stop-color="#555"/>
+      <stop offset="75%" stop-color="#3a3a3a"/>
+      <stop offset="100%" stop-color="#1a1a1a"/>
+    </linearGradient>
+    <linearGradient id="joint4" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#777"/>
+      <stop offset="30%" stop-color="#ccc"/>
+      <stop offset="50%" stop-color="#eee"/>
+      <stop offset="70%" stop-color="#bbb"/>
+      <stop offset="100%" stop-color="#666"/>
+    </linearGradient>
+    <linearGradient id="clamp4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#333"/>
+      <stop offset="50%" stop-color="#2a2a2a"/>
+      <stop offset="100%" stop-color="#1a1a1a"/>
+    </linearGradient>
+    <linearGradient id="suct4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#666"/>
+      <stop offset="30%" stop-color="#999"/>
+      <stop offset="50%" stop-color="#aaa"/>
+      <stop offset="100%" stop-color="#555"/>
+    </linearGradient>
+    <pattern id="carbon4" x="0" y="0" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="4" fill="#2a2a2a"/>
+      <rect width="2" height="2" fill="#333" opacity="0.5"/>
+      <rect x="2" y="2" width="2" height="2" fill="#333" opacity="0.5"/>
+    </pattern>
+    <filter id="shadow4">
+      <feDropShadow dx="0" dy="5" stdDeviation="10" flood-color="#000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+  <rect width="480" height="500" fill="url(#bg4)"/>
+  <g transform="translate(240, 60)" filter="url(#shadow4)">
+    <ellipse cx="0" cy="380" rx="58" ry="15" fill="#222" opacity="0.3"/>
+    <ellipse cx="0" cy="370" rx="55" ry="14" fill="url(#suct4)" stroke="#777" stroke-width="0.5"/>
+    <ellipse cx="0" cy="366" rx="50" ry="12" fill="#555"/>
+    <ellipse cx="0" cy="366" rx="44" ry="10" fill="none" stroke="#777" stroke-width="1.2"/>
+    <ellipse cx="0" cy="364" rx="38" ry="8" fill="#333"/>
+    <path d="M-36 362 Q-36 395 0 400 Q36 395 36 362" fill="#222"/>
+    <rect x="-9" y="270" width="18" height="95" rx="3" fill="url(#arm4)"/>
+    <rect x="-11" y="305" width="22" height="13" rx="3" fill="#333" stroke="#555" stroke-width="0.5"/>
+    <circle cx="0" cy="268" r="16" fill="url(#joint4)" stroke="#999" stroke-width="1"/>
+    <circle cx="0" cy="268" r="9" fill="#aaa"/>
+    <circle cx="-3" cy="265" r="3.5" fill="#ddd" opacity="0.6"/>
+    <rect x="-8" y="175" width="16" height="96" rx="3" fill="url(#arm4)"/>
+    <circle cx="0" cy="173" r="14" fill="url(#joint4)" stroke="#999" stroke-width="1"/>
+    <circle cx="0" cy="173" r="7" fill="#bbb"/>
+    <rect x="-50" y="88" width="100" height="78" rx="5" fill="url(#clamp4)" stroke="#444" stroke-width="1"/>
+    <rect x="-47" y="91" width="94" height="72" rx="3" fill="url(#carbon4)" opacity="0.3"/>
+    <rect x="-7" y="98" width="14" height="52" rx="2" fill="#3a3a3a" stroke="#555" stroke-width="0.5"/>
+    <rect x="-62" y="98" width="14" height="52" rx="4" fill="#2a2a2a" stroke="#444" stroke-width="0.8"/>
+    <rect x="-60" y="105" width="10" height="7" rx="1.5" fill="#333"/>
+    <rect x="-60" y="116" width="10" height="7" rx="1.5" fill="#333"/>
+    <rect x="-60" y="127" width="10" height="7" rx="1.5" fill="#333"/>
+    <rect x="48" y="98" width="14" height="52" rx="4" fill="#2a2a2a" stroke="#444" stroke-width="0.8"/>
+    <rect x="50" y="105" width="10" height="7" rx="1.5" fill="#333"/>
+    <rect x="50" y="116" width="10" height="7" rx="1.5" fill="#333"/>
+    <rect x="50" y="127" width="10" height="7" rx="1.5" fill="#333"/>
+    <rect x="-35" y="160" width="20" height="7" rx="2" fill="#333" transform="rotate(-12, -25, 163)"/>
+    <rect x="15" y="160" width="20" height="7" rx="2" fill="#333" transform="rotate(12, 25, 163)"/>
+  </g>
+  <line x1="60" y1="120" x2="170" y2="148" stroke="#4fc3f7" stroke-width="1" opacity="0.6"/>
+  <circle cx="58" cy="118" r="4" fill="#4fc3f7" opacity="0.8"/>
+  <text x="15" y="100" font-family="Arial, sans-serif" font-weight="bold" font-size="12" fill="#fff">Управление</text>
+  <text x="15" y="114" font-family="Arial, sans-serif" font-weight="bold" font-size="12" fill="#fff">одной рукой</text>
+  <line x1="420" y1="130" x2="310" y2="150" stroke="#4fc3f7" stroke-width="1" opacity="0.6"/>
+  <circle cx="422" cy="128" r="4" fill="#4fc3f7" opacity="0.8"/>
+  <text x="370" y="110" font-family="Arial, sans-serif" font-weight="bold" font-size="12" fill="#fff">Прочный</text>
+  <text x="370" y="124" font-family="Arial, sans-serif" font-weight="bold" font-size="12" fill="#fff">зажим</text>
+  <line x1="70" y1="280" x2="225" y2="330" stroke="#4fc3f7" stroke-width="1" opacity="0.6"/>
+  <circle cx="68" cy="278" r="4" fill="#4fc3f7" opacity="0.8"/>
+  <circle cx="30" cy="260" r="16" fill="none" stroke="#4fc3f7" stroke-width="1.2" opacity="0.7"/>
+  <path d="M18 252 A16 16 0 1 1 24 274" stroke="#4fc3f7" stroke-width="1.2" fill="none" opacity="0.7"/>
+  <text x="52" y="256" font-family="Arial, sans-serif" font-weight="bold" font-size="12" fill="#fff">Поворот</text>
+  <text x="52" y="270" font-family="Arial, sans-serif" font-weight="bold" font-size="12" fill="#fff">360</text>
+  <line x1="415" y1="395" x2="310" y2="425" stroke="#4fc3f7" stroke-width="1" opacity="0.6"/>
+  <circle cx="417" cy="393" r="4" fill="#4fc3f7" opacity="0.8"/>
+  <text x="380" y="378" font-family="Arial, sans-serif" font-weight="bold" font-size="12" fill="#fff">Мощная</text>
+  <text x="380" y="392" font-family="Arial, sans-serif" font-weight="bold" font-size="12" fill="#fff">присоска</text>
+  <line x1="70" y1="410" x2="195" y2="425" stroke="#4fc3f7" stroke-width="1" opacity="0.6"/>
+  <circle cx="68" cy="408" r="4" fill="#4fc3f7" opacity="0.8"/>
+  <text x="15" y="395" font-family="Arial, sans-serif" font-weight="bold" font-size="12" fill="#fff">Для всех</text>
+  <text x="15" y="409" font-family="Arial, sans-serif" font-weight="bold" font-size="12" fill="#fff">смартфонов</text>
+</svg>
